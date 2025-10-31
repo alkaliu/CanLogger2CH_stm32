@@ -1,0 +1,5523 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bf53bb3c-3d2d-4a46-968f-39e72e9a4d8b")
+	(paper "A4")
+	(title_block
+		(title "2CH CAN  Logger")
+		(rev "1.0")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA_Lib:1206W4F604JT5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "60.4Ω"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:R1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Type:Thick Film Resistors Resistance:60.4Ω Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "1206W4F604JT5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C57572"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "60.4Ω ±1% 250mW 厚膜电阻"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1206W4F604JT5E_1_0"
+				(rectangle
+					(start -2.54 -1.016)
+					(end 2.54 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA_Lib:DLW31SN222SQ2L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:FILTER-SMD_4P-L3.2-W1.6-BL_DLW31SN222SQ2L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/DLW31SN222SQ2L/92783.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Number of Lines:2 Voltage Withstand:125V Current Rating:200mA Impedance @ Frequency:2.2kΩ@100MHz Voltage Rating - DC:50V DC Resistance(DCR):1.2Ω Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C Insulation Resistance(IR):10MΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "DLW31SN222SQ2L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "muRata(村田)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C91594"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "两路 贴片共模滤波器 阻抗2.2kΩ@100MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DLW31SN222SQ2L_1_0"
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 5.08)
+					(mid -3.81 3.81)
+					(end -5.08 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -2.54)
+					(mid -3.81 -1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid -1.27 3.81)
+					(end -2.54 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.27 -1.27)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 1.27 3.81)
+					(end 0 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid 1.27 -1.27)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 7.62 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA_Lib:PESD2CAN,215"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/PESD2CAN%252C215/76300.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarity:Bidirectional Reverse Stand-Off Voltage (Vrwm):24V Clamping Voltage:41V Peak Pulse Current (Ipp):5A@8/20us Peak Pulse Power Dissipation (Ppp):230W@8/20us Voltage - Breakdown:28V Reverse Leakage Current (Ir):1nA Number of Channels:2 Operating Temp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "PESD2CAN,215"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia(安世)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C75176"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "双向ESD 24V截止 峰值脉冲电流：5A@8/20us"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PESD2CAN,215_1_0"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy 5.08 2.54) (xy 5.08 2.54) (xy 5.08 -2.54) (xy 5.08 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 4.572) (xy -5.08 0.762) (xy -5.08 0.762) (xy -4.572 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -0.508) (xy -5.08 -4.318) (xy -5.08 -4.318) (xy -4.572 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.318) (xy -5.08 2.54) (xy -5.08 2.54) (xy -2.54 0.762) (xy -2.54 0.762) (xy -2.54 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy -5.08 -2.54) (xy -5.08 -2.54) (xy -2.54 -4.318) (xy -2.54 -4.318) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 2.54 2.54) (xy 2.54 2.54) (xy 0 4.318) (xy 0 4.318) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 0 -0.762) (xy 0 -0.762) (xy 0 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.508) (xy 2.54 4.318) (xy 2.54 4.318) (xy 2.032 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -4.572) (xy 2.54 -0.762) (xy 2.54 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA_Lib:TJA1051T/3/1J"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Type: Data Rate:5Mbps Supply Voltage:4.5V~5.5V Supply Voltage:4.5V~5.5V Supply Current:5mA Operating Temperature:-40°C~+150°C Operating Temperature:-40°C~+150°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "TJA1051T/3/1J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "NXP(恩智浦)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C38695"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "TJA1051T/3/1J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TJA1051T/3/1J_1_0"
+				(rectangle
+					(start -7.62 -6.858)
+					(end 7.62 6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.35 5.588)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Both 0.25W"
+		(exclude_from_sim no)
+		(at 165.862 131.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18f72dc0-8a76-4a63-aa5d-abebb06b7b97")
+	)
+	(text "max 60ma"
+		(exclude_from_sim no)
+		(at 127.254 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "575007d8-d792-421c-8191-3fe6281cf761")
+	)
+	(text "max 60ma"
+		(exclude_from_sim no)
+		(at 130.048 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abfeac24-9b83-4667-a7bb-e9e3d363d6bd")
+	)
+	(text "Both 0.25W"
+		(exclude_from_sim no)
+		(at 168.402 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be06cf05-747a-4a5b-8153-0d46bd7b4f9c")
+	)
+	(text "Possible replacement ESDCAN03-2BWY"
+		(exclude_from_sim no)
+		(at 223.012 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d80aef05-5364-4eab-8fb0-821917247801")
+	)
+	(junction
+		(at 171.45 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "085dba13-0d03-4bc3-a030-f2e28b2f617d")
+	)
+	(junction
+		(at 172.72 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3700868f-bd45-4dec-90fe-c2c9a1f7de60")
+	)
+	(junction
+		(at 193.04 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e9175ed-8707-4697-88f4-e72b525e460f")
+	)
+	(junction
+		(at 196.85 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e9c50b1-2b0d-4c04-8a81-4c6f47f2fec5")
+	)
+	(junction
+		(at 180.34 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f10875b-820e-4371-9037-85110e9139bc")
+	)
+	(junction
+		(at 107.95 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61f431ea-aba6-4632-9a38-230a5606820b")
+	)
+	(junction
+		(at 144.78 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6651827e-342d-4966-b041-b3ff3868993b")
+	)
+	(junction
+		(at 143.51 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70b9a517-1e94-42c8-9259-6650ef891f55")
+	)
+	(junction
+		(at 198.12 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa93bb1-f14f-47b5-86ab-cdc766aa2715")
+	)
+	(junction
+		(at 176.53 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add255ac-5877-4276-9633-4353d888afff")
+	)
+	(junction
+		(at 179.07 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2ad7b02-4f00-47ce-aae3-df615be177b3")
+	)
+	(junction
+		(at 191.77 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d744d3af-5cdc-49ab-b619-29ce3fc62af5")
+	)
+	(junction
+		(at 175.26 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df5f209a-4fd8-4d59-befa-223e389eb799")
+	)
+	(junction
+		(at 109.22 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e412a4f7-2fa8-415f-96b4-2b21eddf2755")
+	)
+	(no_connect
+		(at 139.7 39.37)
+		(uuid "58a809f5-1f69-45c8-aaeb-c96deccfbf69")
+	)
+	(no_connect
+		(at 138.43 104.14)
+		(uuid "aeb6a049-9227-4002-8682-41fc5e482d2b")
+	)
+	(wire
+		(pts
+			(xy 109.22 22.86) (xy 109.22 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051591c4-5f05-4f7d-935a-93c4375786e9")
+	)
+	(wire
+		(pts
+			(xy 167.64 41.91) (xy 180.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acee38d-2f95-469b-9874-46584383e84e")
+	)
+	(wire
+		(pts
+			(xy 149.86 36.83) (xy 149.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de02f02-2304-4d0d-9a2f-8a91091f2d55")
+	)
+	(wire
+		(pts
+			(xy 226.06 111.76) (xy 226.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12af1455-a60b-44f3-8b4e-02980aae5c16")
+	)
+	(wire
+		(pts
+			(xy 167.64 36.83) (xy 167.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156e012b-6133-430d-b112-e32731553e71")
+	)
+	(wire
+		(pts
+			(xy 149.86 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170964a4-2aa8-4935-9277-478cbc1ac9e2")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af1adad-5be2-4d65-9056-9b53ce572723")
+	)
+	(wire
+		(pts
+			(xy 101.6 46.99) (xy 119.38 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc0346b-03d5-4e22-a665-eecc305c6009")
+	)
+	(wire
+		(pts
+			(xy 172.72 63.5) (xy 176.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2031f3cc-4308-4e9e-8d08-0006e63ea119")
+	)
+	(wire
+		(pts
+			(xy 113.03 41.91) (xy 113.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ac9561-3dad-465b-88f4-48ce741de1e4")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 118.11 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235022c5-c417-4666-9ba4-b4dd1a9d2055")
+	)
+	(wire
+		(pts
+			(xy 175.26 129.54) (xy 175.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253dabd6-2d7e-48a5-a2bb-24b6e916d3c1")
+	)
+	(wire
+		(pts
+			(xy 180.34 62.23) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c75c63-f75c-4018-bdb2-42c422da25b2")
+	)
+	(wire
+		(pts
+			(xy 143.51 97.79) (xy 143.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dbd104-fe3f-4d31-ae5b-2b3d4ebd4994")
+	)
+	(wire
+		(pts
+			(xy 198.12 44.45) (xy 198.12 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2966de96-eded-45dc-b56d-346d63634851")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e91670d-2dc7-4af8-b58f-4724e5e0c9fa")
+	)
+	(wire
+		(pts
+			(xy 180.34 41.91) (xy 193.04 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee78b85-6457-46c8-868e-d2499f7a2fe9")
+	)
+	(wire
+		(pts
+			(xy 109.22 44.45) (xy 109.22 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e17f9c-8308-420b-ae44-2ad6d3f6b703")
+	)
+	(wire
+		(pts
+			(xy 167.64 114.3) (xy 167.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d231fe-7a49-4fb8-80d4-eb00fefbc078")
+	)
+	(wire
+		(pts
+			(xy 179.07 129.54) (xy 179.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fc3f45-ce8d-4b30-a326-18dabbff359d")
+	)
+	(wire
+		(pts
+			(xy 167.64 109.22) (xy 179.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e77fae-4e97-4d49-b8e0-167a29f17fd4")
+	)
+	(wire
+		(pts
+			(xy 218.44 46.99) (xy 212.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347104b1-fdba-42dd-bc0f-58cc74a251cb")
+	)
+	(wire
+		(pts
+			(xy 176.53 63.5) (xy 176.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e333a4-e121-4a98-8287-0754fe3995ce")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa5cb64-5370-45b1-9954-5e92b5261969")
+	)
+	(wire
+		(pts
+			(xy 172.72 44.45) (xy 172.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce17539-2ddc-487b-9452-187893dee817")
+	)
+	(wire
+		(pts
+			(xy 212.09 46.99) (xy 212.09 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c79f9d-cfca-4e37-a4b3-029d7278bdbf")
+	)
+	(wire
+		(pts
+			(xy 171.45 129.54) (xy 175.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441eee3c-f36d-45cd-8308-05d5f4113ec0")
+	)
+	(wire
+		(pts
+			(xy 196.85 109.22) (xy 196.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451b2dd2-7eaf-4ed2-8938-ba9716470afb")
+	)
+	(wire
+		(pts
+			(xy 198.12 44.45) (xy 212.09 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a32cb15-2722-4108-bbec-b45744a724e9")
+	)
+	(wire
+		(pts
+			(xy 107.95 87.63) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ca86da-013a-419f-8a99-ba86ad5fecf7")
+	)
+	(wire
+		(pts
+			(xy 171.45 123.19) (xy 171.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5648a24a-6162-4a47-9448-4081a52c1942")
+	)
+	(wire
+		(pts
+			(xy 116.84 25.4) (xy 116.84 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c29453-199c-4cff-b9d0-ccbfe4298a9c")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 171.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610795b4-4d57-4e3e-b53c-c8fbf4af721b")
+	)
+	(wire
+		(pts
+			(xy 119.38 44.45) (xy 109.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666dc147-c03d-422c-8600-7ee7496e1440")
+	)
+	(wire
+		(pts
+			(xy 144.78 33.02) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6e23f8-2edf-49c2-8bc9-693b18e7a327")
+	)
+	(wire
+		(pts
+			(xy 118.11 106.68) (xy 111.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa0f395-93fd-49ba-9c4b-fb981ce311a3")
+	)
+	(wire
+		(pts
+			(xy 229.87 104.14) (xy 227.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b578f42-9411-410e-acfd-6d9a4c493d1f")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c66f8c-3257-4130-86cd-52a4fd4c1d5c")
+	)
+	(wire
+		(pts
+			(xy 193.04 41.91) (xy 212.09 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88356fe6-0f0e-4a72-a915-b1a329b1c470")
+	)
+	(wire
+		(pts
+			(xy 149.86 41.91) (xy 139.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0d4d74-776d-4038-a2c1-5c9300915b63")
+	)
+	(wire
+		(pts
+			(xy 226.06 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e9783c-c2fe-4f3e-a8ce-fab4514eb38a")
+	)
+	(wire
+		(pts
+			(xy 167.64 44.45) (xy 172.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933debaf-7d1d-4951-9cd1-b4b6c7a4b48a")
+	)
+	(wire
+		(pts
+			(xy 212.09 39.37) (xy 212.09 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93605b10-ca31-4733-a102-36f23910958f")
+	)
+	(wire
+		(pts
+			(xy 107.95 109.22) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9712096d-3699-4743-835c-c8951241972f")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 138.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991c496b-f34d-4b3a-8c71-b00f04f83470")
+	)
+	(wire
+		(pts
+			(xy 193.04 41.91) (xy 193.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f80ade5-cc49-4c6f-a419-39960223c19f")
+	)
+	(wire
+		(pts
+			(xy 171.45 106.68) (xy 171.45 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dce318-7c31-4e44-befb-5a84a9e91e97")
+	)
+	(wire
+		(pts
+			(xy 144.78 46.99) (xy 139.7 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f87fe9-c55b-48c5-b209-b39715a6c144")
+	)
+	(wire
+		(pts
+			(xy 180.34 63.5) (xy 176.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ccb929-6edd-4e13-9482-c9b4ebc43776")
+	)
+	(wire
+		(pts
+			(xy 118.11 109.22) (xy 107.95 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7abed14-4571-465a-8be0-199f51a6d022")
+	)
+	(wire
+		(pts
+			(xy 191.77 106.68) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9808bd-d393-42c5-ab8d-c37be10837cd")
+	)
+	(wire
+		(pts
+			(xy 171.45 106.68) (xy 191.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1aa2a79-af09-40cb-8b8d-2e1f675c6a5c")
+	)
+	(wire
+		(pts
+			(xy 172.72 59.69) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b8d593-1070-4df9-8869-e80a41e698c8")
+	)
+	(wire
+		(pts
+			(xy 227.33 104.14) (xy 227.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1efca4-d989-4cc8-bcbc-020e9643fd92")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.68) (xy 111.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2cc87e-c896-4b0e-b7b0-706c5a840513")
+	)
+	(wire
+		(pts
+			(xy 212.09 39.37) (xy 218.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d5798e-5710-4b02-9abe-55db1b9f4516")
+	)
+	(wire
+		(pts
+			(xy 180.34 50.8) (xy 180.34 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f9a0ac-ccbe-4bea-a4d6-eef6f1d9b75e")
+	)
+	(wire
+		(pts
+			(xy 139.7 44.45) (xy 149.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d118e8f5-260b-4cbd-a096-19205e64497b")
+	)
+	(wire
+		(pts
+			(xy 179.07 129.54) (xy 175.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3df52a5-1f76-4b42-bac6-33cce1e25ecd")
+	)
+	(wire
+		(pts
+			(xy 167.64 49.53) (xy 167.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72ba935-3686-4d01-a1a7-620ae8096970")
+	)
+	(wire
+		(pts
+			(xy 119.38 41.91) (xy 113.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4795ab-9afa-485c-a5e8-07f2144fcc6a")
+	)
+	(wire
+		(pts
+			(xy 179.07 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db80bbcc-d5f7-4939-8688-6cb260b2ceb1")
+	)
+	(wire
+		(pts
+			(xy 144.78 53.34) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfc4122-9398-4491-8f8e-fda36a55be70")
+	)
+	(wire
+		(pts
+			(xy 227.33 106.68) (xy 191.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf9d2fd-d4e1-4518-9475-5b7a549d4704")
+	)
+	(wire
+		(pts
+			(xy 172.72 44.45) (xy 198.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea039384-69a6-420e-8b12-6dfe22be77f5")
+	)
+	(wire
+		(pts
+			(xy 149.86 44.45) (xy 149.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec055628-6bcb-4bd9-9f9b-f3a7970ad30b")
+	)
+	(wire
+		(pts
+			(xy 101.6 39.37) (xy 119.38 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efffeb89-0122-4ec2-bb2a-8f2b571da27d")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 115.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f145a034-18e2-4a72-ad39-a558c6f324a1")
+	)
+	(wire
+		(pts
+			(xy 180.34 41.91) (xy 180.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67ce665-c4c3-4afd-922c-626a3ebcb928")
+	)
+	(wire
+		(pts
+			(xy 116.84 22.86) (xy 109.22 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7772fcb-7018-4b86-ac94-571e6e386611")
+	)
+	(wire
+		(pts
+			(xy 229.87 111.76) (xy 226.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d07e6d-111e-497d-872a-96017783ddfd")
+	)
+	(wire
+		(pts
+			(xy 143.51 118.11) (xy 143.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb58e95b-186f-432a-9c89-43d3013d017e")
+	)
+	(wire
+		(pts
+			(xy 138.43 109.22) (xy 149.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0825b9-abd8-49ad-b3bb-d2dc41ee0080")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 118.11 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff998fa9-e685-4897-bc8d-7c743a683333")
+	)
+	(global_label "CH2_CAN_L"
+		(shape bidirectional)
+		(at 218.44 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "135fb54e-f88f-4a37-9c84-cf55fb45e241")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.9989 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDCAN2_TX"
+		(shape output)
+		(at 101.6 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21d27f2c-fc31-43b5-b9a8-fadf33571297")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.2129 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH1_CAN_L"
+		(shape bidirectional)
+		(at 229.87 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f0b15bb-10f2-45be-975e-cf2f8f1a9371")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.4289 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDCAN1_TX"
+		(shape bidirectional)
+		(at 100.33 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f308b46-f97f-42a3-b3d4-237d62e48c6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.8316 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDCAN2_RX"
+		(shape output)
+		(at 101.6 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b55a784-b633-4e70-a09f-d974f980be1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.9105 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH2_CAN_H"
+		(shape bidirectional)
+		(at 218.44 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "624b1996-1868-4512-8198-85d6507a8a55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.3013 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH1_CAN_H"
+		(shape bidirectional)
+		(at 229.87 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8591dba2-bed0-4b18-9914-f107eadbe9b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.7313 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDCAN1_RX"
+		(shape bidirectional)
+		(at 100.33 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97eaf0c8-91d2-4fc2-a504-adea17ba5b05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5292 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0631dedb-610c-449a-beef-92b4a658b5f3")
+		(property "Reference" "#PWR017"
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e8f114e-5855-4473-b921-3da049254cb4")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 107.95 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "185d231e-6f9a-4c23-87bf-4cac6611efbe")
+		(property "Reference" "#PWR019"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 107.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fafca4c-11c4-4ddf-aec1-533c9fa31581")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:DLW31SN222SQ2L")
+		(at 160.02 106.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b6fa2e0-fbac-443a-9e74-9d3761d15c9f")
+		(property "Reference" "FL2"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DLW31SN222SQ2L"
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "canlogger_custom_lib:FILTER-SMD_4P-L3.2-W1.6-BL_DLW31SN222SQ2L"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/DLW31SN222SQ2L/92783.html"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Number of Lines:2 Voltage Withstand:125V Current Rating:200mA Impedance @ Frequency:2.2kΩ@100MHz Voltage Rating - DC:50V DC Resistance(DCR):1.2Ω Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C Insulation Resistance(IR):10MΩ"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "DLW31SN222SQ2L"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C91594"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "两路 贴片共模滤波器 阻抗2.2kΩ@100MHz"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "592d0dd4-ea0c-46a0-b510-c44dc3b88925")
+		)
+		(pin "3"
+			(uuid "5c24449e-aae0-4456-a5cf-a14855955acf")
+		)
+		(pin "1"
+			(uuid "5adb1eb6-6bb3-431d-bcdd-f2233731d0a8")
+		)
+		(pin "2"
+			(uuid "9b52e911-9662-44a9-900c-86a392b6bb43")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "FL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:1206W4F604JT5E")
+		(at 171.45 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3835a814-22ed-4431-839f-c2fb1764edb7")
+		(property "Reference" "R5"
+			(at 166.37 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "60.4Ω"
+			(at 167.386 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R1206"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistors Resistance:60.4Ω Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "1206W4F604JT5E"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C57572"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "60.4Ω ±1% 250mW 厚膜电阻"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e75b78cf-676d-4359-a161-e629f54bee1b")
+		)
+		(pin "1"
+			(uuid "ee19ef17-23d6-47ee-a2bc-917cd4179e13")
+		)
+		(instances
+			(project ""
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43f39b41-9b19-4b6c-87dc-6e497732eb3c")
+		(property "Reference" "C9"
+			(at 119.38 26.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 119.38 29.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:C0603"
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C14663"
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f2b52d4-f79a-4de5-aa11-be455d9ccd8c")
+		)
+		(pin "2"
+			(uuid "47802c1a-c267-4ea1-832e-24105d9b60d0")
+		)
+		(instances
+			(project ""
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:DLW31SN222SQ2L")
+		(at 160.02 41.91 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47199a9e-d64a-4de9-8726-f376942eeb34")
+		(property "Reference" "FL1"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DLW31SN222SQ2L"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "canlogger_custom_lib:FILTER-SMD_4P-L3.2-W1.6-BL_DLW31SN222SQ2L"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/DLW31SN222SQ2L/92783.html"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Number of Lines:2 Voltage Withstand:125V Current Rating:200mA Impedance @ Frequency:2.2kΩ@100MHz Voltage Rating - DC:50V DC Resistance(DCR):1.2Ω Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C Insulation Resistance(IR):10MΩ"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "DLW31SN222SQ2L"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C91594"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "两路 贴片共模滤波器 阻抗2.2kΩ@100MHz"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6b787a64-45c5-438a-b3f3-af1c2b387028")
+		)
+		(pin "3"
+			(uuid "2a1e2a06-cbd7-4291-a2ab-0aa5dbd4e272")
+		)
+		(pin "1"
+			(uuid "0fac8936-d4da-46c1-9468-86205ef821c3")
+		)
+		(pin "2"
+			(uuid "4fe57413-e055-4cae-8374-a40ce3557864")
+		)
+		(instances
+			(project ""
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:PESD2CAN,215")
+		(at 195.58 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa0ae4e-a00a-42f0-bacb-42746d2477ae")
+		(property "Reference" "D2"
+			(at 201.93 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD2CAN/ESDCAN01"
+			(at 201.93 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/PESD2CAN%252C215/76300.html"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarity:Bidirectional Reverse Stand-Off Voltage (Vrwm):24V Clamping Voltage:41V Peak Pulse Current (Ipp):5A@8/20us Peak Pulse Power Dissipation (Ppp):230W@8/20us Voltage - Breakdown:28V Reverse Leakage Current (Ir):1nA Number of Channels:2 Operating Temp"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD2CAN,215"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia(安世)"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C75176"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "双向ESD 24V截止 峰值脉冲电流：5A@8/20us"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a9299b04-f844-467a-b2ef-291408abf3a2")
+		)
+		(pin "2"
+			(uuid "ebb57e1d-ca7e-4347-b63c-cb45e4e14402")
+		)
+		(pin "1"
+			(uuid "790af761-1fe8-4ddd-ade0-f6a9ccb1e907")
+		)
+		(instances
+			(project ""
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5126c9e1-e35b-4e8e-a345-086d4328995c")
+		(property "Reference" "#PWR023"
+			(at 143.51 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abd8ae18-da03-496f-a0b1-265f624ccd3c")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "519d73a7-5ffc-487b-9c0c-bfe20be7091f")
+		(property "Reference" "#PWR024"
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b92f9bc-b656-462d-a5fd-5ea37f1ae149")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 180.34 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d8efaa2-01f4-4073-8719-afa59a997e5b")
+		(property "Reference" "JP1"
+			(at 183.388 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 176.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 180.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 180.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9af60240-4cbf-4a17-8e96-57c7530eda05")
+		)
+		(pin "2"
+			(uuid "464e1b35-21cd-47b4-9391-6cf36fb8d761")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f69f4e0-7cfc-4fe4-b45c-3981f563409f")
+		(property "Reference" "#PWR018"
+			(at 195.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9f74f64-c16c-448a-ac5d-9c40813e8858")
+		)
+		(instances
+			(project ""
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 115.57 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7238269f-70e9-4096-bc1a-32d760509a61")
+		(property "Reference" "C12"
+			(at 118.11 91.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 118.11 93.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:C0603"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C14663"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "180abfe0-2c50-4182-b3fe-97f28b6d28bd")
+		)
+		(pin "2"
+			(uuid "1e21e928-1f16-4389-86ad-37d50ff6892a")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:TJA1051T/3/1J")
+		(at 129.54 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7491f14c-393b-456d-8e02-63da339cc337")
+		(property "Reference" "U2"
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TJA1051T/3"
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type: Data Rate:5Mbps Supply Voltage:4.5V~5.5V Supply Voltage:4.5V~5.5V Supply Current:5mA Operating Temperature:-40°C~+150°C Operating Temperature:-40°C~+150°C"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TJA1051T/3/1J"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NXP(恩智浦)"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C38695"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "TJA1051T/3/1J"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2ea1a2a-4605-491d-ba7b-7d281302d9c3")
+		)
+		(pin "8"
+			(uuid "ac5386a1-fa4c-486a-a101-5a8ad181882a")
+		)
+		(pin "4"
+			(uuid "a4d08bf9-a51f-4f91-a2a0-c5633063df97")
+		)
+		(pin "3"
+			(uuid "99293574-ecb3-4409-bed0-00d147fdc450")
+		)
+		(pin "1"
+			(uuid "16862067-c60a-4fdd-8cbd-95513ea2f0e5")
+		)
+		(pin "6"
+			(uuid "75290897-345b-4515-860f-53166851a4c0")
+		)
+		(pin "7"
+			(uuid "23d275b8-9953-4e5c-b795-bf0f6612b056")
+		)
+		(pin "5"
+			(uuid "4374566e-788c-44bd-b130-e4593dd62191")
+		)
+		(instances
+			(project ""
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 144.78 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "758c19e6-35dd-435a-9b0d-9793986da28a")
+		(property "Reference" "C10"
+			(at 147.32 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 147.32 57.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:C0603"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C14663"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df64162c-df35-428b-9273-9bf09f5f1641")
+		)
+		(pin "2"
+			(uuid "93ecf7bd-c972-43b1-ad62-7c606927d44a")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ae4c3b1-4b06-42f3-9e24-6fb183f3e9a0")
+		(property "Reference" "C13"
+			(at 146.05 119.3862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 146.05 121.9262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:C0603"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C14663"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff30850a-c40c-48dc-994b-392f5bacb047")
+		)
+		(pin "2"
+			(uuid "7a19a385-ac72-4aee-8e1c-6d0a12b3b197")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 175.26 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0a8531e-6edd-4943-8813-0536a53f6779")
+		(property "Reference" "C14"
+			(at 177.8 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7n"
+			(at 177.8 135.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:C0603"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C53987"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77444eec-3a33-4858-9556-44b5048ada33")
+		)
+		(pin "2"
+			(uuid "9c95d729-e826-41f3-b6a1-a8a16210a6c9")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af15b6ed-e33d-4bbb-b5c6-401a8a26db85")
+		(property "Reference" "#PWR013"
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f32b393b-cd74-4d47-a561-378581c4381a")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 144.78 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b114563e-17ea-4c3e-a866-4f2f46f86d5e")
+		(property "Reference" "#PWR014"
+			(at 144.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88447701-5d6a-4aa1-aea2-cb5dff61b246")
+		)
+		(instances
+			(project ""
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb48e8a4-6f7d-487e-87b8-1601c6e2be83")
+		(property "Reference" "#PWR020"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24245dea-e66b-4f30-a7fb-3ee2e87bc268")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc344389-a101-4b31-bf81-dc1d66ed0031")
+		(property "Reference" "#PWR025"
+			(at 194.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4419606f-ac63-45e3-afaf-110d5a47b077")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d30676c0-601c-4c41-a5b8-9ade94f13399")
+		(property "Reference" "#PWR016"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12fcecfb-519d-49f1-b6b2-d6a58abb8df6")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7454a7e-40b0-448d-9f6f-1ef042e81be4")
+		(property "Reference" "#PWR022"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3956695e-a156-4a9f-9e5b-a497d1b0e351")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 143.51 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d74e3799-deac-42f4-94a7-8d560eb1c78e")
+		(property "Reference" "#PWR021"
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30ce08bc-0cc0-48a1-98e2-efaa269361ae")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:1206W4F604JT5E")
+		(at 179.07 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d944ddfc-29c7-4dba-922a-2514a8dd3fae")
+		(property "Reference" "R6"
+			(at 181.61 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "60.4Ω"
+			(at 183.642 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R1206"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistors Resistance:60.4Ω Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "1206W4F604JT5E"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C57572"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "60.4Ω ±1% 250mW 厚膜电阻"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8162308e-dd52-400e-bdfe-ea7dbb323def")
+		)
+		(pin "1"
+			(uuid "9d7f47de-958c-4681-b062-d69778e46570")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 176.53 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1a4f2af-7390-4ec8-a6f6-411b96adc3ad")
+		(property "Reference" "C11"
+			(at 179.07 68.5862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7n"
+			(at 179.07 71.1262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:C0603"
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C53987"
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baa762d2-a3b2-40b7-9014-b99857dd7b9a")
+		)
+		(pin "2"
+			(uuid "c08f9464-2c0e-4918-aba5-fc9e2deb2cdb")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62b5e81-f387-4832-834c-a90e1a175beb")
+		(property "Reference" "#PWR015"
+			(at 113.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4e41783-4f8a-48aa-8f3c-c37c6589d59e")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:TJA1051T/3/1J")
+		(at 128.27 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6692e08-df64-43f1-b7aa-2d83a4c3b9db")
+		(property "Reference" "U3"
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TJA1051T/3"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type: Data Rate:5Mbps Supply Voltage:4.5V~5.5V Supply Voltage:4.5V~5.5V Supply Current:5mA Operating Temperature:-40°C~+150°C Operating Temperature:-40°C~+150°C"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TJA1051T/3/1J"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NXP(恩智浦)"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C38695"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "TJA1051T/3/1J"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db3fcc64-c99a-4446-9ac8-5affd2f0d263")
+		)
+		(pin "8"
+			(uuid "cdfab1e5-32f4-4618-9e1e-a014a37c1651")
+		)
+		(pin "4"
+			(uuid "a42cbef6-8ba9-4f6f-8e88-8313b1d5a0d9")
+		)
+		(pin "3"
+			(uuid "7cb94442-02cb-44ce-9358-71265e587058")
+		)
+		(pin "1"
+			(uuid "5b60a122-6661-44c0-b5a8-04e5e5404643")
+		)
+		(pin "6"
+			(uuid "6d77dd5d-66ba-4da0-bc57-77b698569789")
+		)
+		(pin "7"
+			(uuid "a8812c31-20c4-46d5-a9a6-15e79bae24e5")
+		)
+		(pin "5"
+			(uuid "91ad722b-f9df-4c40-9617-55ee8d44ea06")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:1206W4F604JT5E")
+		(at 180.34 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e94b4058-da43-484f-9827-4dae2d46ab14")
+		(property "Reference" "R4"
+			(at 182.88 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "60.4Ω"
+			(at 184.912 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R1206"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistors Resistance:60.4Ω Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "1206W4F604JT5E"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C57572"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "60.4Ω ±1% 250mW 厚膜电阻"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3dbf31a-fff6-4e53-b20b-9152f1a5516b")
+		)
+		(pin "1"
+			(uuid "bd305f2d-bb35-4390-9904-e29b2c42cd80")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:1206W4F604JT5E")
+		(at 172.72 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edd246be-04c5-4769-a8a9-ba5bb9059d95")
+		(property "Reference" "R3"
+			(at 167.64 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "60.4Ω"
+			(at 168.656 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R1206"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistors Resistance:60.4Ω Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "1206W4F604JT5E"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C57572"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "60.4Ω ±1% 250mW 厚膜电阻"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d1ccb73-1bd8-4549-82ca-4cce02395b68")
+		)
+		(pin "1"
+			(uuid "badb23f1-96ec-4deb-9982-1eec745c9c4d")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:PESD2CAN,215")
+		(at 194.31 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2f5a513-a7ef-49ae-b0ac-6727eee06706")
+		(property "Reference" "D3"
+			(at 200.66 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD2CAN/ESDCAN01"
+			(at 200.66 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/PESD2CAN%252C215/76300.html"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarity:Bidirectional Reverse Stand-Off Voltage (Vrwm):24V Clamping Voltage:41V Peak Pulse Current (Ipp):5A@8/20us Peak Pulse Power Dissipation (Ppp):230W@8/20us Voltage - Breakdown:28V Reverse Leakage Current (Ir):1nA Number of Channels:2 Operating Temp"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD2CAN,215"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia(安世)"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C75176"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "双向ESD 24V截止 峰值脉冲电流：5A@8/20us"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a004d677-0c2e-4c83-b756-1844e3f782c4")
+		)
+		(pin "2"
+			(uuid "3a696f79-e742-4b65-9acd-06e999ae9137")
+		)
+		(pin "1"
+			(uuid "3310b75a-f91c-441c-99e8-9320cd1bc7b1")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 179.07 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd04db20-41bf-4d86-838d-47d69109c339")
+		(property "Reference" "JP2"
+			(at 182.118 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecda7776-8903-4950-81e4-3c5b5a84ac6e")
+		)
+		(pin "2"
+			(uuid "ec09ec25-993b-44ed-a767-cd9f49583c3b")
+		)
+		(instances
+			(project ""
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd7ce25c-f398-4eae-88e8-f78bec036a77")
+		(property "Reference" "#PWR012"
+			(at 109.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 109.22 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1230128b-bd1a-483d-98e6-c6e40e5932aa")
+		)
+		(instances
+			(project ""
+				(path "/c59a6287-5b72-492b-aa01-526032899224/4f7c91a7-7232-40ec-8224-bb95fa54cbdb"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

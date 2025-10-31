@@ -1,0 +1,186 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c59a6287-5b72-492b-aa01-526032899224")
+	(paper "A4")
+	(title_block
+		(title "2CH CAN  Logger")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 53.34 50.8)
+		(size 17.78 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f7c91a7-7232-40ec-8224-bb95fa54cbdb")
+		(property "Sheetname" "CAN"
+			(at 53.34 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 53.34 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 50.8)
+		(size 17.78 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ef1d395-aa53-4e7a-8e4b-b7828baf3fc4")
+		(property "Sheetname" "USB_SDCARD"
+			(at 114.3 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 114.3 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 69.85)
+		(size 17.78 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cb52fbd-516b-461b-a431-5fba0fa3eb43")
+		(property "Sheetname" "POWER"
+			(at 83.82 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 83.82 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 50.8)
+		(size 17.78 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab3add60-e83c-416c-8740-9e0bd2e9eebb")
+		(property "Sheetname" "MCU"
+			(at 83.82 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 83.82 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

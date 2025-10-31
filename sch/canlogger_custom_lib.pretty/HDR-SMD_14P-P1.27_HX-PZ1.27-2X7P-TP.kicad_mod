@@ -1,0 +1,414 @@
+(footprint "HDR-SMD_14P-P1.27_HX-PZ1.27-2X7P-TP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J2"
+		(at -0.3175 -3.95 180)
+		(layer "F.SilkS")
+		(uuid "6173322a-3333-47fb-8c5e-ec113878024b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2x7P Pitch:1.27mm"
+		(at -0.317499 4.634655 180)
+		(layer "F.Fab")
+		(uuid "86546b26-733f-4a23-b7d6-b89002962de5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/HX%2520PZ1.27-2x7P%2520TP/43143500.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e44dccb-a266-49db-b7ee-b099f49c22f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Pin Structure:2x7P Pitch:1.27mm Row Spacing:1.27mm Circluar Pins/Square Pins:Pin Header Mounting Type:Surface Mount,Vertical Number of Rows:2 Number of Pins:14P Current Rating:1A Voltage Rating (Max):500V Length of Mating Pin:4mm Insulation Height:1mm Len"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2e149fc-0204-4b1f-a254-cb7cffd07c2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "HX PZ1.27-2x7P TP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c282bb86-a01e-456c-b3f5-f27b0804445e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "hanxia(韩下)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30a00934-eee4-455f-82b2-982cd0920ff6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C41376039"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "498a7b39-9360-46e8-9cb8-c793135c268e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47ca820f-9a85-40a5-a587-b9c6c6117cc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" "2x7P 间距:1.27mm 方针 立贴"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67e16716-a2dd-4ba7-bebc-761a62a1192e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.445 -1.7)
+		(end -4.445 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "015a7802-ff4a-48b5-b082-ed99217c629b")
+	)
+	(fp_line
+		(start -4.445 -1.7)
+		(end -4.411 -1.700001)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a411076-a9ca-48ba-9e87-25f2ef67a7c8")
+	)
+	(fp_line
+		(start -4.445 1.7)
+		(end -4.411 1.700001)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5d851f9e-3bdf-4236-9b51-923fb54f7c47")
+	)
+	(fp_line
+		(start -3.209 -1.7)
+		(end -3.141 -1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21dbc941-ad74-4261-a83a-767119cea256")
+	)
+	(fp_line
+		(start -3.209 1.7)
+		(end -3.141 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ceda5bc6-82db-4338-ac06-4e232d1b3d8a")
+	)
+	(fp_line
+		(start -1.939001 -1.7)
+		(end -1.871 -1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27af8f6b-e71b-4e40-bff7-ffd7894dbcfc")
+	)
+	(fp_line
+		(start -1.939001 1.7)
+		(end -1.871 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fbd21bbe-46bb-4acf-a238-e8fd325538e0")
+	)
+	(fp_line
+		(start -0.669 -1.7)
+		(end -0.601 -1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d38b9cef-87cb-4362-894d-2f9d9ecd29c8")
+	)
+	(fp_line
+		(start -0.669 1.7)
+		(end -0.601 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b58be83-e21d-482b-8609-bc9b2f9d1f4b")
+	)
+	(fp_line
+		(start 0.601 -1.7)
+		(end 0.669 -1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f0c2b88f-94d3-4bf4-b77b-8da2c7998c83")
+	)
+	(fp_line
+		(start 0.601 1.7)
+		(end 0.669 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49a4d0a1-9723-4d34-bc99-e5c315ff8e28")
+	)
+	(fp_line
+		(start 1.871 -1.7)
+		(end 1.939001 -1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ce75c8f7-c488-426e-ae21-789365de819a")
+	)
+	(fp_line
+		(start 1.871 1.7)
+		(end 1.939001 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d046a96-b230-45a6-9189-0607fc163972")
+	)
+	(fp_line
+		(start 3.141 -1.7)
+		(end 3.209 -1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "315f1d85-3fa0-4ca3-b10c-8ab259ba95c8")
+	)
+	(fp_line
+		(start 3.141 1.7)
+		(end 3.209 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "731c54a2-4b3f-4c8f-9e56-ac84cecd422e")
+	)
+	(fp_line
+		(start 4.411 -1.700001)
+		(end 4.445 -1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3b046b37-8822-4b91-8572-30a934d60ada")
+	)
+	(fp_line
+		(start 4.411 1.700001)
+		(end 4.445 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "47488052-5723-40b9-82b8-531dc745a4a3")
+	)
+	(fp_line
+		(start 4.445 -1.7)
+		(end 4.445 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "865e9b11-054a-4b60-9285-c24ebc89f768")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start -5.207 3.556)
+				(mid -4.826 3.175)
+				(end -4.445 3.556)
+			)
+			(arc
+				(start -4.445 3.556)
+				(mid -4.826 3.937)
+				(end -5.207 3.556)
+			)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "aec05788-5fa8-458c-80ee-bf7bcf3fff1b")
+	)
+	(pad "1" smd rect
+		(at -3.81 2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c7b962b-786b-4a03-8712-023b7f8b3580")
+	)
+	(pad "2" smd rect
+		(at -3.81 -2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd497a44-b472-4de0-b929-9f6880d37bba")
+	)
+	(pad "3" smd rect
+		(at -2.54 2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cbd316c0-6108-4e01-bfbc-9a2886b3bc36")
+	)
+	(pad "4" smd rect
+		(at -2.54 -2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8ca78489-849b-447a-9bdf-3d0ecb08626c")
+	)
+	(pad "5" smd rect
+		(at -1.27 2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "33a381e4-4a42-44b5-a21b-492d73955ecb")
+	)
+	(pad "6" smd rect
+		(at -1.27 -2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d500cb1-531f-431e-9e81-2ab72bbd3d09")
+	)
+	(pad "7" smd rect
+		(at 0 2.000001)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0daebed2-48ef-4631-a92e-3b096eff08cd")
+	)
+	(pad "8" smd rect
+		(at 0 -2.000001)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2d1d95c4-8771-4201-b31e-2b07eea3ec68")
+	)
+	(pad "9" smd rect
+		(at 1.27 2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "caa81007-ac11-46b5-b945-cbca92333060")
+	)
+	(pad "10" smd rect
+		(at 1.27 -2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "542108ef-663c-4208-b01e-98abba7aed14")
+	)
+	(pad "11" smd rect
+		(at 2.54 2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "548b6075-4fda-4c4f-9109-fe3faa97c170")
+	)
+	(pad "12" smd rect
+		(at 2.54 -2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0adc54f0-032c-4696-89ad-ef19e80f3b43")
+	)
+	(pad "13" smd rect
+		(at 3.81 2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ac224d3e-5dad-4148-89a2-0ea57232ca57")
+	)
+	(pad "14" smd rect
+		(at 3.81 -2)
+		(size 0.74 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "157ccdbe-ec52-4cd0-bc48-4f41381736e3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/FTSH-107-01-F-DV--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
