@@ -1706,6 +1706,16 @@
 		)
 		(uuid "575007d8-d792-421c-8191-3fe6281cf761")
 	)
+	(text "CAN channel 2"
+		(exclude_from_sim no)
+		(at 131.572 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a8a8e59-dea4-49b1-b922-c61fb07371c5")
+	)
 	(text "max 60ma"
 		(exclude_from_sim no)
 		(at 130.048 55.372 0)
@@ -1735,6 +1745,16 @@
 			)
 		)
 		(uuid "d80aef05-5364-4eab-8fb0-821917247801")
+	)
+	(text "CAN channel 1"
+		(exclude_from_sim no)
+		(at 135.89 145.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df972cc4-75de-4192-a6db-c8d16779c1f0")
 	)
 	(junction
 		(at 171.45 106.68)

@@ -1,0 +1,37 @@
+LCSC Part Number,Manufacture Part Number,Manufacturer,Customer NO.,Package,Description,RoHS,Quantity,Unit Price(€),Ext.Price(€),Estimated lead time (business days),Date Code / Lot No.,Status
+C730123,STM32G474CBT6,ST,U1,LQFP-48(7x7),170MHz 38 LQFP-48(7x7) Microcontrollers RoHS,YES,2,3.5769,7.15,,,-
+C67274,IRLML0060TRPBF,Infineon,"Q2,Q3",SOT-23,"60V 2.7A 92mΩ@10V 1.25W 2.5V 1 N-Channel SOT-23 Single FETs, MOSFETs RoHS",YES,5,0.1157,0.58,,,-
+C25804,0603WAF1002T5E,UNI-ROYAL,"R1,R2,R9,R10,R11,R12,R14,R18",0603,100mW 10kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,YES,100,0.0009,0.09,,,-
+C57572,1206W4F604JT5E,UNI-ROYAL,"R3,R4,R5,R6",1206,250mW 60.4Ω 200V ±100ppm/℃ Thick Film Resistor ±1% 1206 Chip Resistor - Surface Mount RoHS,YES,100,0.003,0.30,,,-
+C23186,0603WAF5101T5E,UNI-ROYAL,"R7,R8,R15,R16,R17,R19",0603,100mW 5.1kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,YES,100,0.001,0.10,,,-
+C21190,0603WAF1001T5E,UNI-ROYAL,R13,0603,100mW 1kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,YES,100,0.001,0.10,,,-
+C25803,0603WAF1003T5E,UNI-ROYAL,R20,0603,100mW 100kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,YES,100,0.001,0.10,,,-
+C23138,0603WAF3300T5E,UNI-ROYAL,"R21,R22,R23,R24,R25,R30",0603,100mW 330Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,YES,100,0.001,0.10,,,-
+C455262,TS-1087S-01526,XUNPU,SW1,"SMD,5.2x5.2mm","Without Bracket 5.2mm 12V 5.2mm Round Button SPST 50mA SMD,5.2x5.2mm Tactile Switches RoHS",YES,20,0.0308,0.62,,,-
+C15850,CL21A106KAYNNNE,Samsung Electro-Mechanics,"C5,C17,C19,C20,C21,C23,C28",0805,25V 10uF X5R ±10% 0805 Ceramic Capacitors RoHS,YES,20,0.0098,0.20,,,-
+C38695,TJA1051T/3/1J,NXP,"U2,U3",SOIC-8-150mil,"CAN FD Transceiver 110mA 4.5V~5.5V SOIC-8-150mil Drivers, Receivers, Transceivers RoHS",YES,4,0.4347,1.74,,,-
+C2977777,CH340N,WCH,U4,SOP-8,USB to serial USB 2.0 SOP-8 Interface Controllers RoHS,YES,2,0.4591,0.92,,,-
+C2071056,AP63205WU-7,DIODES,U5,TSOT-23-6,1.1MHz 2A Buck Fixed 5V 1 TSOT-23-6 Voltage Regulators - DC DC Switching Regulators RoHS,YES,2,0.3232,0.65,,,-
+C35879,LD1117S33CTR,ST,U6,SOT-223-4,"75dB@(120Hz) Positive Fixed 3.3V SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS",YES,5,0.1029,0.51,,,-
+C963216,GT-USB-7047A,G-Switch,USB1,SMD,"USB 2.0 1 16P -40℃~+85℃ Type-C SMD USB, DVI, HDMI Connector Assemblies RoHS",YES,5,0.1726,0.86,,,-
+C5155564,GT-TF003-H0185-02,G-Switch,X1,SMD,-40℃~+90℃ Push-Push 1.85mm Connector and Ejector MicroSD Card (TF Card) SMD PC Card Sockets RoHS,YES,5,0.1605,0.80,,,-
+C7294557,CF4016M00009001,huaxindianzi,Y1,SMD3225-4P,Crystal Oscillator 9pF SMD3225-4P Crystals RoHS,YES,10,0.0502,0.50,,,-
+C2638679,0420CDMCCDS-4R7MC,Sumida,L1,"SMD,4.4x4.2mm","2.5A 4.7uH Molded Inductor ±20% 3A 92mΩ SMD,4.4x4.2mm Fixed Inductors RoHS",YES,2,0.4342,0.87,,,-
+C14663,CC0603KRX7R9BB104,YAGEO,"C1,C2,C3,C4,C6,C9,C10,C12,C13,C15,C16,C18,C22,C25",0603,50V 100nF X7R ±10% 0603 Ceramic Capacitors RoHS,YES,100,0.0021,0.21,,,-
+C1647,CL10C180JB8NNNC,Samsung Electro-Mechanics,"C7,C8",0603,50V 18pF C0G ±5% 0603 Ceramic Capacitors RoHS,YES,100,0.0049,0.49,,,-
+C53987,0603B472K500NT,FH,"C11,C14",0603,50V 4.7nF X7R ±10% 0603 Ceramic Capacitors RoHS,YES,100,0.0025,0.25,,,-
+C7177,TAJA106K010RNJ,Kyocera AVX,C24,CASE-A-3216-18(mm),10uF 10V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors RoHS,YES,5,0.0813,0.41,,,-
+C154819,RB751V40T1G,onsemi,D1,SOD-323,500mA 30V 370mV@1mA 30mA SOD-323 Single Diodes RoHS,YES,10,0.0317,0.32,,,-
+C75176,"PESD2CAN,215",Nexperia,"D2,D3",SOT-23,5A@8/20us 230W@8/20us 41V 28V Bidirectional 24V SOT-23 TVS Diodes RoHS,YES,5,0.1236,0.62,,,-
+C7519,USBLC6-2SC6,ST,"D4,D5,D6",SOT-23-6L,5A 17V 6V Unidirectional 5.25V SOT-23-6L TVS Diodes RoHS,YES,10,0.0906,0.91,,,-
+C552812,PMEG2005EGWX,Nexperia,"D7,D9",SOD-123,10A 20V 390mV@500mA 500mA SOD-123 Single Diodes RoHS,YES,5,0.0922,0.46,,,-
+C2286,KT-0603R,Hubei KENTO Elec,"D8,D14,D17,D18,D19,D20,D21,D22",0603,20mA 300mcd 615nm~630nm Red 2.4V 40mW 0603 LED Indication - Discrete RoHS,YES,100,0.0051,0.51,,,-
+C82648,ES1D-E3/61T,VISHAY,D10,SMA(DO-214AC),30A 15ns 200V 920mV@1.0A 1A SMA(DO-214AC) Single Diodes RoHS,YES,2,0.0473,0.09,,,-
+C72599,MMSZ12T1G,onsemi,"D11,D15,D16",SOD-123,Independent 11.4V~12.6V 500mW 12V SOD-123 Single Zener Diodes RoHS,YES,10,0.0335,0.34,,,-
+C148222,SMAJ24A,Littelfuse,D13,DO-214AC(SMA),10.3A 400W@10/1000us 38.9V 29.5V Unidirectional 24V DO-214AC(SMA) TVS Diodes RoHS,YES,5,0.1148,0.57,,,-
+C12558,SMD1812P050TF,RUILON,F1,1812,15V 500mA 30A 1A 150mΩ 1812 PTC Resettable Fuses RoHS,YES,5,0.0804,0.40,,,-
+C91594,DLW31SN222SQ2L,muRata,"FL1,FL2","SMD-4P,3.2x1.6mm","2.2kΩ@100MHz 1.2Ω 2 SMD-4P,3.2x1.6mm Common Mode Chokes RoHS",YES,4,0.4726,1.89,,,-
+C41376039,HX PZ1.27-2x7P TP,hanxia,J2,"SMD,P=1.27mm","2x7P 14P Gold Brass -40℃~+105℃ Pin Header Black 1.27mm 1mm 4mm 500V 2 1A Surface Mount,Vertical 1.27mm SMD,P=1.27mm Headers, Male Pins RoHS",YES,5,0.1017,0.51,,,-
+C10663,NTD2955T4G,onsemi,Q1,DPAK,"60V 12A 55W 180mΩ@10V,6A 4V@250uA 1 P-Channel DPAK Single FETs, MOSFETs RoHS",YES,2,0.5157,1.03,,,-
+C891719,MMSZ4709T1G,onsemi,,SOD-123,Independent 22.8V~25.2V 500mW 24V SOD-123 Single Zener Diodes RoHS,YES,10,0.0326,0.33,,,-
+C7464458,X0209WT7W5,XKB Connection,,Through Hole,9P Male Standard D-Sub Through Hole 2 3A -55℃~+105℃ Through Hole D-Sub Connector RoHS,YES,2,0.5358,1.07,,,-

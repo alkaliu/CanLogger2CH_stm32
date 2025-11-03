@@ -2220,6 +2220,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SD CARD interface"
+		(exclude_from_sim no)
+		(at 139.954 153.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1fb51147-6c4a-4821-9cad-765e687d788d")
+	)
+	(text "DRIVER https://cdn.sparkfun.com/assets/learn_tutorials/5/9/7/Windows-CH340-Driver.zip"
+		(exclude_from_sim no)
+		(at 134.62 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76f9745d-ae9c-4ed4-8e16-b0f88b9d7928")
+	)
 	(text "max 30ma"
 		(exclude_from_sim no)
 		(at 117.856 65.278 0)
@@ -2239,6 +2259,16 @@
 			)
 		)
 		(uuid "b0a847c1-ce29-4934-9829-0e8faf72c8fc")
+	)
+	(text "UART to USB\n"
+		(exclude_from_sim no)
+		(at 135.382 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8a6302a-cf9d-481a-a766-45d7e2a88ada")
 	)
 	(junction
 		(at 157.48 99.06)
@@ -4439,7 +4469,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5c563a50-b606-41c6-aae2-50d4e8534945")
 		(property "Reference" "R29"
 			(at 86.106 58.166 90)
@@ -5937,7 +5967,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d7966278-006f-40dd-b3f1-00cb1984e1f7")
 		(property "Reference" "R28"
 			(at 91.694 51.054 90)

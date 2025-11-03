@@ -3871,6 +3871,18 @@
 		)
 		(uuid "d6fc4e08-2b30-4b00-827d-129e68f6a5eb")
 	)
+	(text "IF POWERED BY STDC14 pin3\nALL OTHER POWER LINES SHOULD \nBE DISCONNECTED (VBUS AND V_IN)"
+		(exclude_from_sim no)
+		(at 144.526 152.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "eff20944-87ad-413d-907a-c982b3907f04")
+	)
 	(junction
 		(at 39.37 39.37)
 		(diameter 0)
@@ -6493,7 +6505,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "12824332-5ddd-4081-b3b2-e14512b3718a")
 		(property "Reference" "R27"
 			(at 128.27 180.086 90)
@@ -6644,7 +6656,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "218b82e0-9e34-4a20-87ac-2e63d03ed442")
 		(property "Reference" "R26"
 			(at 100.33 177.292 90)
