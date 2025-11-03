@@ -2392,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 53.34) (xy 104.14 53.34)
+			(xy 74.93 53.34) (xy 87.63 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2439,6 +2439,16 @@
 			(type default)
 		)
 		(uuid "091574c9-0bb9-4185-ad3c-0793492ddcae")
+	)
+	(wire
+		(pts
+			(xy 92.71 53.34) (xy 104.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be4026a-9d8d-42c7-bef5-284eb4cf079e")
 	)
 	(wire
 		(pts
@@ -2782,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 104.14 55.88)
+			(xy 74.93 55.88) (xy 81.28 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3119,6 +3129,16 @@
 			(type default)
 		)
 		(uuid "b92d814a-7104-45aa-9652-8015ab0b3d5c")
+	)
+	(wire
+		(pts
+			(xy 86.36 55.88) (xy 104.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6ba0e7-e665-4d30-a12a-76571bef59f9")
 	)
 	(wire
 		(pts
@@ -4407,6 +4427,91 @@
 			(project "canlogger"
 				(path "/c59a6287-5b72-492b-aa01-526032899224/6ef1d395-aa53-4e7a-8e4b-b7828baf3fc4"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 83.82 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c563a50-b606-41c6-aae2-50d4e8534945")
+		(property "Reference" "R29"
+			(at 86.106 58.166 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 82.804 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R0603"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8578255895094087680"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0Ω 100mW 75V Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C21189"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cc42f57-fbb4-47b0-9cb8-f22ceac631da")
+		)
+		(pin "2"
+			(uuid "c3ebb7c4-7961-499f-92c0-0baa09ff0d8b")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/6ef1d395-aa53-4e7a-8e4b-b7828baf3fc4"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -5820,6 +5925,91 @@
 			(project ""
 				(path "/c59a6287-5b72-492b-aa01-526032899224/6ef1d395-aa53-4e7a-8e4b-b7828baf3fc4"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 90.17 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7966278-006f-40dd-b3f1-00cb1984e1f7")
+		(property "Reference" "R28"
+			(at 91.694 51.054 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 88.392 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R0603"
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8578255895094087680"
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0Ω 100mW 75V Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C21189"
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a23ebd1-af61-43f7-8178-894399e5fb34")
+		)
+		(pin "2"
+			(uuid "c88d69f4-8ebb-4407-8c46-ce95a9c89956")
+		)
+		(instances
+			(project "canlogger"
+				(path "/c59a6287-5b72-492b-aa01-526032899224/6ef1d395-aa53-4e7a-8e4b-b7828baf3fc4"
+					(reference "R28")
 					(unit 1)
 				)
 			)

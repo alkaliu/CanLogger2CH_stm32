@@ -3841,6 +3841,16 @@
 		)
 		(uuid "5f34e7a1-0f0e-437d-a430-f002ca313e76")
 	)
+	(text "LPUART1"
+		(exclude_from_sim no)
+		(at 149.352 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a63945de-3e33-4bdf-be4a-7a576d7595a0")
+	)
 	(text "max 120ma"
 		(exclude_from_sim no)
 		(at 119.888 110.49 0)
@@ -3850,6 +3860,16 @@
 			)
 		)
 		(uuid "ba225703-b2fd-4fe4-8edf-13960e686035")
+	)
+	(text "SPI1"
+		(exclude_from_sim no)
+		(at 148.59 65.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6fc4e08-2b30-4b00-827d-129e68f6a5eb")
 	)
 	(junction
 		(at 39.37 39.37)
@@ -5811,7 +5831,7 @@
 	)
 	(global_label "SPI1_MISO"
 		(shape bidirectional)
-		(at 127 68.58 0)
+		(at 127 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5821,7 +5841,7 @@
 		)
 		(uuid "649657ae-56a7-4552-9786-3c9cc8a0fb31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.9541 68.58 0)
+			(at 140.9541 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +6051,7 @@
 	)
 	(global_label "SPI1_MOSI"
 		(shape bidirectional)
-		(at 127 66.04 0)
+		(at 127 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6041,7 +6061,7 @@
 		)
 		(uuid "bfda0d00-9509-41ee-9bbe-058f31e64b91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.9541 66.04 0)
+			(at 140.9541 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,7 +9836,7 @@
 			)
 		)
 		(property "Value" "18p"
-			(at 71.628 78.232 0)
+			(at 70.866 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
